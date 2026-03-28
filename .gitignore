@@ -1,0 +1,40 @@
+# 보안
+naver_cookies.pkl
+*.pkl
+*.env
+secrets/
+
+# 대용량 원본 데이터
+data/data_original/
+data/backup/
+
+# 중간 데이터 클리닝 결과물 (대용량)
+data/data_cleaning/
+data/data_cleaning_2nd/
+data/data_cleaning_3rd/
+data/data_cleaning_4th/
+
+# 모델 파일
+data/models/
+
+# 대용량 분석 결과 parquet (tokens_ana, master)
+data/analytics_output/tokens_ana*.parquet
+data/analytics_output/master.parquet
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Claude Code 설정
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
